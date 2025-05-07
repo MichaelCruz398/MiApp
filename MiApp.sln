@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiApp.Web", "MiApp.Web\MiApp.Web.csproj", "{C3865966-BE8C-4522-9FD7-94D558DBAAB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiApp.Bll", "MiApp.Bll\MiApp.Bll.csproj", "{EF48E409-2E6D-4A83-BFC5-9C0EFE1524C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiApp.Dal", "MiApp.Dal\MiApp.Dal.csproj", "{F2C2CFC2-1D18-4604-BC00-8CFCF396DDEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiApp.Fll", "MiApp.Fll\MiApp.Fll.csproj", "{861038E6-88E9-44D6-8F99-E7E893434126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiApp.Mod", "MiApp.Mod\MiApp.Mod.csproj", "{DE0E315F-1FDD-46DE-8FC4-137961329E96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3865966-BE8C-4522-9FD7-94D558DBAAB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3865966-BE8C-4522-9FD7-94D558DBAAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3865966-BE8C-4522-9FD7-94D558DBAAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3865966-BE8C-4522-9FD7-94D558DBAAB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF48E409-2E6D-4A83-BFC5-9C0EFE1524C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF48E409-2E6D-4A83-BFC5-9C0EFE1524C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF48E409-2E6D-4A83-BFC5-9C0EFE1524C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF48E409-2E6D-4A83-BFC5-9C0EFE1524C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C2CFC2-1D18-4604-BC00-8CFCF396DDEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C2CFC2-1D18-4604-BC00-8CFCF396DDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C2CFC2-1D18-4604-BC00-8CFCF396DDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C2CFC2-1D18-4604-BC00-8CFCF396DDEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861038E6-88E9-44D6-8F99-E7E893434126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861038E6-88E9-44D6-8F99-E7E893434126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861038E6-88E9-44D6-8F99-E7E893434126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861038E6-88E9-44D6-8F99-E7E893434126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0E315F-1FDD-46DE-8FC4-137961329E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0E315F-1FDD-46DE-8FC4-137961329E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0E315F-1FDD-46DE-8FC4-137961329E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0E315F-1FDD-46DE-8FC4-137961329E96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CE4B875-B4D6-4D01-BD4A-294B4E7D6C4D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/mcruz0141
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MiApp.Web\\MiApp.Web.csproj
+		SccProjectName1 = MiApp.Web
+		SccLocalPath1 = MiApp.Web
+		SccProjectUniqueName2 = MiApp.Bll\\MiApp.Bll.csproj
+		SccProjectName2 = MiApp.Bll
+		SccLocalPath2 = MiApp.Bll
+		SccProjectUniqueName3 = MiApp.Dal\\MiApp.Dal.csproj
+		SccProjectName3 = MiApp.Dal
+		SccLocalPath3 = MiApp.Dal
+		SccProjectUniqueName4 = MiApp.Fll\\MiApp.Fll.csproj
+		SccProjectName4 = MiApp.Fll
+		SccLocalPath4 = MiApp.Fll
+		SccProjectUniqueName5 = MiApp.Mod\\MiApp.Mod.csproj
+		SccProjectName5 = MiApp.Mod
+		SccLocalPath5 = MiApp.Mod
+	EndGlobalSection
+EndGlobal

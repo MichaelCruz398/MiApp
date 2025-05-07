@@ -1,0 +1,64 @@
+﻿     <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="MiApp.Web.Pagina.Inicio.Master" %>
+
+<%@ Register Assembly="DevExpress.Web.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Mi App - <%:Page.Title %></title>
+    <link src="../../Imagen/logo_icon.png" rel="icon"/>
+    <link href="../../Content/Pagina/Inicio/Master.css" rel="stylesheet" />
+    <link href="../../Content/Bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="../../Scripts/Bootstrap/bootstrap.min.js"></script>
+    <script src="../../Scripts/Jquery/jquery-1.6.3.min.js"></script>
+    <link href="../../Content/Toastr/toastr.min.css" rel="stylesheet" />
+    <script src="../../Scripts/Toastr/toastr.min.js"></script>
+    <link href="../../Content/sweetalert2/sweetalert2.min.css" rel="stylesheet" />
+    <script src="../../Scripts/sweetalert2/sweetalert2.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">    
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <dx:ASPxPanel ID="AplSuperior" runat="server" FixedPosition="WindowTop" CssClass="border-0">
+             <PanelCollection>
+               <dx:PanelContent runat="server">
+                   <asp:HyperLink ID="AhlLogo" runat="server" CssClass="float-start" Text="Logotipo" ImageUrl="~/Imagen/LogoDim.png" ImageHeight="50" NavigateUrl="~/Pagina/Varios/Tarjeta.aspx">
+
+                   </asp:HyperLink>
+                   <dx:ASPxMenu ID="menu" runat="server" CssClass=float-end OnInit="menu_Init"> 
+                   </dx:ASPxMenu>
+               </dx:PanelContent>       
+            </PanelCollection>
+        </dx:ASPxPanel>
+       
+        <dx:ASPxPanel ID="AplIzquierdo" runat="server" FixedPosition="WindowLeft" Collapsible="false" CssClass="border-0">
+            <SettingsAdaptivity  />
+            <PanelCollection>
+                <dx:PanelContent runat="server">
+                  <dx:ASPxNavBar ID="ASPxNavBar1" runat="server" CssClass="fondo" OnInit="ASPxNavBar1_Init">
+                  </dx:ASPxNavBar>  
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxPanel>
+        <dx:ASPxPanel ID="AplContenido" CssClass="border-0 container-fluid fondo" runat="server" FixedPosition="None">
+          <PanelCollection>
+              <dx:PanelContent runat="server">
+                 <asp:ContentPlaceHolder ID="Contenido" runat="server">
+                 </asp:ContentPlaceHolder>
+              </dx:PanelContent>
+          </PanelCollection>
+        </dx:ASPxPanel>
+        <dx:ASPxPanel ID="ASPxPanel1" runat="server" FixedPosition="WindowBottom" CssClass="border-0 text-center">
+            <PanelCollection>
+                <dx:PanelContent runat="server">
+                    <dx:ASPxLabel ID="AlbPiePagina" runat="server" Text="Pie de pagina"></dx:ASPxLabel>
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxPanel>
+    </form>
+    <script src="../../Scripts/Pagina/Inicio/Master.js"></script>
+</body>
+</html>
